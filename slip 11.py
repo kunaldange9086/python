@@ -1,0 +1,15 @@
+x=(1,2,3,4)
+y=(3,5,2,1)
+z=(2,2,3,1)
+print("original lists:")
+print(x)
+print(y)
+print(z)
+print("\n Element-wise sum of the said tuples:")
+result=tuple(map(sum,zip(x,y,z)))
+print(result)
+list1=[1,5,7] 
+list2=[3,2,1]
+a=(list1)
+b=(list2)
+print(a+b)
